@@ -4,7 +4,7 @@ class Juju < Formula
   skip_clean :all
   url 'lp:juju', :using => :bzr
   homepage 'https://launchpad.net/ubuntu/+source/juju'
-  md5 '9883b30bf8f8bf2accebcc5b97bc0fc2'
+  md5 ''
   version '0.5-504'
   
   def install
