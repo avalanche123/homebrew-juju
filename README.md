@@ -5,9 +5,9 @@ Homebrew juju and charm-tools
 
 Install Via
 -----------
-brew install bzr
-brew install zookeeper
-brew install juju
+1. brew install bzr
+2. brew install zookeeper
+3. brew install juju
 
 What Packages Are Available?
 ----------------------------
