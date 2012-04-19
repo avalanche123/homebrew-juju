@@ -2,15 +2,16 @@ require 'formula'
 
 class Juju < Formula
   skip_clean :all
-  url 'lp:juju', :using => :bzr
+  url 'https://launchpad.net/ubuntu/precise/+source/juju/0.5+bzr531-0ubuntu1/+files/juju_0.5+bzr531.orig.tar.gz'
+  #HEAD 'lp:juju', :using => :bzr
   homepage 'https://launchpad.net/ubuntu/+source/juju'
-  md5 ''
-  version '0.5-504'
+  md5 '09be4a473644f3c88f64c3e29491c9af'
+  version '0.5-531'
   
   def install
     ENV.deparallelize
     ENV.no_optimization
-    system "sudo","/usr/bin/easy_install","zkpython","argparse","txzookeeper","PyYAML", "txaws", "pydot","argparse"
+    system "sudo","/usr/bin/easy_install","txzookeeper","PyYAML", "txaws", "pydot","oauth"
     system "sudo","/usr/bin/python", "./setup.py", "install"
   end
 
