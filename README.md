@@ -25,11 +25,13 @@ Getting in Touch
 License
 *** 
 * Juju and related tools carry their own individual upstream OpenSource Licenses and are not enumerated here.
-* Original OS X Homebrew Formulas and supporting files &copy; copyright 2012 [Brandon Holtsclaw][brandon] unless noted otherwise elseware.
-* All Additional code, scripts, packaging, or other included files in this repository are released under the a MIT License that is available in the COPYING located [here at the root][copy] of this repository, unless otherwise explicitly stated.
-
+* Original Juju Homebrew packaging and other minor files that occupy the repository are &copy; copyright 2012 [Brandon Holtsclaw][brandon] unless noted otherwise elseware.
+* All files that are contained in this repository are available freely governed by the conditions stated in this MIT License located in the file [COPYING][copying] , or 
+for convience an identical copy can be read and linked to at [https://raw.github.com/jujutools/homebrew-juju/master/COPYING][copy]
 
 
 [home]:http://jujutools.github.com/
 [fsf]:http://www.fsf.org
 [brandon]:http://brandonholtsclaw.com/
+[copying]:https://raw.github.com/jujutools/homebrew-juju/master/COPYING
+
